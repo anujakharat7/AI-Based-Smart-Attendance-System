@@ -1,48 +1,24 @@
-# AI-Based-Smart-Attendance-System
-Facial Recognition | Python | Machine Learning | Web Application
+# 🎓 AI-Based Smart Attendance System
 
-Overview
+## Overview
+Built a facial recognition attendance system with blink-based liveness 
+detection (anti-spoofing) and a multi-role RBAC web app — completely 
+eliminating proxy attendance.
 
-A fully contactless attendance system that uses facial recognition to verify identity and automate attendance marking, eliminating proxy attendance and human error.
+## Tech Stack
+- Python
+- Flask (Web Framework)
+- OpenCV (Facial Recognition)
+- SQLite (Database)
 
-Why This System?
+## Key Features
+- Facial recognition for automatic attendance marking
+- Blink detection to prevent proxy/spoofing attacks
+- Multi-role access: Admin, Teacher, Student
+- Real-time web dashboard for attendance records
 
-Manual roll calls are slow and error-prone
-
-RFID cards can be misused
-
-Fingerprint scanners require physical touch
-
-Existing hardware-based systems are expensive
-
-Features
-
-Contactless face recognition
-
-Real-time identity verification
-
-Automated attendance marking
-
-Centralized web panel for teachers and admins
-
-Secure and scalable system
-
-Tech Stack
-
-Python
-
-Face Recognition / OpenCV
-
-ML model for face detection
-
-Web framework (Flask / Django)
-
-How to Run
-
-Install required ML libraries
-
-Set up webcam
-
-Run the face recognition script
-
-Integrate with the attendance web panel
+## How to Run
+1. Clone the repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run: `python app.py`
+4. Open browser at `http://localhost:5000`
